@@ -2,7 +2,6 @@
 //エスケープ処理やデータチェックを行う関数のファイルの読み込み
 require 'functions.php';
 
- 
 //POSTされたデータを変数に格納（値の初期化とデータの整形：前後にあるホワイトスペースを削除）
 $name = trim( filter_input(INPUT_POST, 'name') );
 $email = trim( filter_input(INPUT_POST, 'email') );
